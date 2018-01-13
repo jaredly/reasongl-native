@@ -6,7 +6,7 @@
     "dir": "example",
     "type": "dev"
   }],
-  "bs-dependencies": ["Tsdl", "Tgls", "ReasonglInterface"],
+  "bs-dependencies": ["Tsdl", "Tgls", "@jaredly/reasongl-interface"],
   "entries": [{
     "backend": "bytecode",
     "main-module": "Example"
