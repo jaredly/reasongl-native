@@ -1,6 +1,6 @@
 {
   "name": "@jaredly/reasongl-native",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reason bindings to OpenGL",
   "dependencies": {
     "@jaredly/reasongl-interface": "1.0.1",
