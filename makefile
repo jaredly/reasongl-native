@@ -69,7 +69,7 @@ prebuild:
 lib: _build/lib/libsoil_wrapper.a reasongl.o
 
 _build/lib/libsoil_wrapper.a:	src/soil_wrapper.c
-	gcc -I$(OCAML_LIB) -c src/soil_wrapper.c -o _build/lib/libsoil_wrapper.a
+	gcc -I$(BSLIB) -c src/soil_wrapper.c -o _build/lib/libsoil_wrapper.a
 
 reasongl.o: src/reasongl.c
 	ocamlopt.opt -c src/reasongl.c
